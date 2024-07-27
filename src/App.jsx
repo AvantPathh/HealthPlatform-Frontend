@@ -8,6 +8,7 @@ import Appointment from './pages/appointment';
 import Reschedule from './pages/reschedule';
 import Contact from './pages/contact';
 import Admin from './pages/admin';
+import Home from './pages/home';
 
 function App() {
   const router = createBrowserRouter([
@@ -20,11 +21,15 @@ function App() {
           element: <LandingPage />,
         },
         {
+          path: 'home',
+          element: <Home />,
+        },
+        {
           path: 'about-us',
           element: <About />,
         },
         {
-          path: 'profle',
+          path: 'profile',
           element: <Profile />,
         },
         {
