@@ -30,6 +30,27 @@ const N = {
       path: '/admin',
     },
   ],
+
+  BUTTONDATA: [
+    {
+      // id: 1,
+      title: 'New Patient',
+      link: '/sign-up',
+      buttonText: 'Sign Up',
+    },
+    {
+      // id: 2,
+      title: 'Old Patient',
+      link: '/login',
+      buttonText: 'Login',
+    },
+    {
+      // id: 3,
+      title: 'Admin',
+      link: '/admin-login',
+      buttonText: 'Login',
+    },
+  ],
 };
 
 export default N;

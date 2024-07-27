@@ -1,3 +1,5 @@
+// src/components/Navbar.js
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronDownIcon } from '@heroicons/react/16/solid';
@@ -25,14 +27,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-primary p-4 mt-4 mx-auto max-w-4xl rounded-lg shadow-lg">
-      <div className="flex justify-between items-center">
-        {/* <div className="flex items-center space-x-2"> */}
+    <nav className="fixed top-0 left-0 w-full bg-primary p-4 shadow-lg z-20">
+      <div className="flex justify-between items-center max-w-4xl mx-auto">
         <Link to="/">
           <img src="path_to_logo" alt="Logo" className="h-8 w-8" />
           {/* <span className="text-xl font-bold text-white">Logo</span> */}
         </Link>
-        {/* </div> */}
 
         <div className="flex items-center space-x-4">
           {N.NAVLINKS.map((item, index) => (
