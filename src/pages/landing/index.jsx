@@ -42,6 +42,12 @@ const LandingPage = () => {
                   {buttonText}
                 </button>
               </Link>
+              {/* <button
+                onClick={() => navigate(link)}
+                className="text-[1.3rem] px-9 py-2 bg-primary rounded-xl"
+              >
+                {buttonText}
+              </button> */}
             </div>
           ))}
         </div>
