@@ -8,7 +8,6 @@ const RootLayout = () => {
     <div>
       <Navbar />
       <Outlet />
-
       <Footer />
     </div>
   );
